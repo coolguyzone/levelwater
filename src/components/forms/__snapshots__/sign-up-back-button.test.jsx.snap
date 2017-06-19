@@ -1,6 +1,6 @@
 exports[`sign up back button renders a snapshot 1`] = `
 <div
-  className="column eight wide"
+  className="column eight wide computer sixteen wide tablet"
   id="sign-up-back-button">
   <Link
     replace={false}>
