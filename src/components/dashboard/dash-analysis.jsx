@@ -11,13 +11,12 @@ export default class DashAnalysis extends Component {
       budgetStatus = 'Annual Budget Surplus:';
       return { totalRevenue, totalCosts, revCostDiff, budgetStatus };
     } else {
-      budgetStatus = 'Annual Budget Deficit:'
+      budgetStatus = 'Annual Budget Deficit:';
       return { totalRevenue, totalCosts, revCostDiff, budgetStatus };
     }
   }
 
   renderCriticalInfrastructureName() {
-    console.log('props', this.props)
     return this.props.criticalInfrastructure.map((element, i) => {
       return <li key={i}>{element[0]}</li>;
     });
@@ -64,8 +63,8 @@ export default class DashAnalysis extends Component {
             <div className="reserve-fund-increase">Annual Increase to Reserve Fund for Eventual Replacement: ${this.props.criticalInfrastructure[i][3]}</div>
             <div className="monthly-increase-per-connection">Monthly Increase per Connection:  ${(this.props.criticalInfrastructure[i][3]/(12 * 550)).toFixed(2)}</div>
             <br/>
-          </div>)
-      generatedJSX.push(generatedItem)
+          </div>);
+      generatedJSX.push(generatedItem);
     }
     return generatedJSX;
   }
@@ -81,8 +80,8 @@ export default class DashAnalysis extends Component {
             <div className="reserve-fund-increase">Annual Increase to Reserve Fund for Eventual Replacement: ${this.props.noncriticalInfrastructure[i][3]}</div>
             <div className="monthly-increase-per-connection">Monthly Increase per Connection:  ${(this.props.noncriticalInfrastructure[i][3]/(12 * 550)).toFixed(2)}</div>
           <br/>
-          </div>)
-      generatedJSX.push(generatedItem)
+        </div>);
+      generatedJSX.push(generatedItem);
     }
     return generatedJSX;
   }
