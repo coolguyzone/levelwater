@@ -1,8 +1,6 @@
 import React  from 'react';
 import styles from './manage.css';
 
-
-
 const ManageButton = () => (
   <div id="manage-button">
 
