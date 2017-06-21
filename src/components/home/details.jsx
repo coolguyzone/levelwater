@@ -13,13 +13,6 @@ const Details = () => (
           <li>You are provided with a dashboard showing the estimated remaining life and replacement costs for your system's infrastructure.</li>
         </ul>
       </div>
-      {/* <div className="column eight wide">
-        <p></p>
-        <ul>
-          <li>- You are provided with a dashboard showing the estimated remaining life and replacement costs for your system's infrastructure.</li>
-          <li>- You raise rates, as necessary, to account for future needs of your water system.</li>
-        </ul>
-      </div> */}
     </div>
   </div>
 );

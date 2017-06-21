@@ -23,7 +23,7 @@ const mapDispatchToProps = (dispatch) => {
 export class LoginForm extends Component{
   constructor(props) {
     super(props);
-    this.state = { value: null }
+    this.state = { value: null };
   }
 
   render(props) {
@@ -37,35 +37,27 @@ export class LoginForm extends Component{
           if (profileStepCompleted === 'none') {
             history.push('/signup/step1');
           } else if (profileStepCompleted === 'basic') {
-            history.push('/signup/step2')
+            history.push('/signup/step2');
           } else if (profileStepCompleted === 'revenue') {
-            history.push('/signup/step3')
+            history.push('/signup/step3');
           } else if (profileStepCompleted === 'source') {
-            history.push('/signup/step4')
+            history.push('/signup/step4');
           } else if (profileStepCompleted === 'treatment') {
-            history.push('/signup/step5')
+            history.push('/signup/step5');
           } else if (profileStepCompleted === 'storage') {
-            history.push('/signup/step6')
+            history.push('/signup/step6');
           } else if (profileStepCompleted === 'distribution') {
-            history.push('/dashboard')
+            history.push('/dashboard');
           } else if (profileStepCompleted === 'algorithm') {
-            history.push('/dashboard')
+            history.push('/dashboard');
           }
         });
-        //trying to reset forms, needs work!
-        // console.log(this.refs.email.value);
-        // this.refs.email.value="";
       }}>
         <Link to="/"><div id="close-login"><img
       src={require('../../img/black-icon.png')}
        alt="close window"
      /></div></Link>
         <div className="ui grid">
-          {/* <div className="login-field column five wide">
-            <label>E-mail</label>
-            <label>Password</label>
-
-          </div> */}
 
           <div className="login-field column sixteen wide">
 
