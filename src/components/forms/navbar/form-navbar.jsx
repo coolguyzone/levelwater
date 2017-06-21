@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import RightNavForms from './right-nav-forms';
-import styles from './form-navbar.css'
+import styles from './form-navbar.css';
 
 
 export const FormNavbar = () => (

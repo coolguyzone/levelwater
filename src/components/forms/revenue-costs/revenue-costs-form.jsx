@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SignUpStep from '../sign-up-step';
 import { Field, reduxForm } from 'redux-form';
-import { submitRevenueCostInfo } from '../../../actions'
+import { submitRevenueCostInfo } from '../../../actions';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import SignUpBackButton from '../sign-up-back-button';
@@ -11,8 +11,6 @@ import {
 } from 'react-router-dom';
 import styles from '../forms.css';
 import styles2 from './revenue-costs-form.css';
-
-
 
 
 const mapStateToProps = (state, ownProps) => {

@@ -15,7 +15,7 @@ function loginUser(email, password, callback) {
     } else {
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('water_systems_id', response.data.water_systems_id);
-      localStorage.setItem('profileStepCompleted', response.data.profileStepCompleted)
+      localStorage.setItem('profileStepCompleted', response.data.profileStepCompleted);
       callback(response.data.profileStepCompleted);
     }
   })
@@ -23,5 +23,3 @@ function loginUser(email, password, callback) {
 }
 
 export default loginUser;
-
-module.exports = loginUser;

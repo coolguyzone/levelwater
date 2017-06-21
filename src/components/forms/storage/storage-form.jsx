@@ -3,7 +3,7 @@ import SignUpStep from '../sign-up-step';
 import SignUpBackButton from '../sign-up-back-button';
 import { Field, reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
-import { submitStorageInfo } from '../../../actions'
+import { submitStorageInfo } from '../../../actions';
 import { bindActionCreators } from 'redux';
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ const mapStateToProps = (state, ownProps) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return bindActionCreators ({ submitStorageInfo }, dispatch)
+  return bindActionCreators ({ submitStorageInfo }, dispatch);
 };
 
 export class StorageForm extends Component {

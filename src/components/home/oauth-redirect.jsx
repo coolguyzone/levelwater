@@ -46,7 +46,7 @@ class OauthRedirect extends Component {
     localStorage.setItem('token', token);
     localStorage.setItem('profileStepCompleted', profileStepCompleted);
     localStorage.setItem('water_systems_id', water_systems_id);
-    localStorage.setItem('showPword', showPword)
+    localStorage.setItem('showPword', showPword);
   }
 
   render() {

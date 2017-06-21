@@ -1,0 +1,21 @@
+exports[`right nav home renders a snapshot 1`] = `
+<div
+  className="ui-buttons">
+  <Link
+    replace={false}
+    to="/login">
+    <button
+      className="ui button">
+      Log In
+    </button>
+  </Link>
+  <Link
+    replace={false}
+    to="/signup">
+    <button
+      className="ui button">
+      Sign Up
+    </button>
+  </Link>
+</div>
+`;

@@ -7,5 +7,5 @@ describe('revenue and costs form', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<RevenueCostsForm />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

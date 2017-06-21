@@ -4,7 +4,7 @@ import { Field, reduxForm } from 'redux-form';
 import { signUserUp } from '../../actions';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import styles from '../login/login.css'
+import styles from '../login/login.css';
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -24,7 +24,6 @@ export class SignupForm extends Component{
       <form id="signup-form" onSubmit={(event) => {
         event.preventDefault();
         let x = this.props.signupFormData.signup.values;
-        console.log(x);
         this.props.signUserUp(x.email, x.firstName, x.lastName, x.password, x.passwordConfirm, () => {
           history.push('/signup/step1');
         });
@@ -34,15 +33,6 @@ export class SignupForm extends Component{
      alt="close window"
    /></div></Link>
         <div className="ui grid">
-          {/* <div className="login-field signup-field column five wide">
-            <label>E-mail</label>
-            <label>First Name</label>
-            <label>Last Name</label>
-            <label>Password</label>
-            <label>Confirm Password</label>
-
-
-          </div> */}
 
           <div className="login-field signup-field column sixteen wide">
 

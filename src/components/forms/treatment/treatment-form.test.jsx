@@ -7,5 +7,5 @@ describe('treatment form', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<TreatmentForm />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

@@ -12,17 +12,14 @@ const loadChartHelper = () => {
   return axios.get(`${algorithmURL}${id}`, config)
   .then((response) => {
     if (response) {
-      functionResponse = JSON.parse(response.data.algorithm_results)
-      console.log(functionResponse)
-      // return(JSON.parse(response.data.algorithm_results));
+      functionResponse = JSON.parse(response.data.algorithm_results);
     }
-    return axios.get(`${waterSystemURL}${id}`, config)
+    return axios.get(`${waterSystemURL}${id}`, config);
   })
   .then((response) => {
     if (response) {
       functionResponse.water_system_results = response.data;
     }
-    console.log(functionResponse)
     return functionResponse;
   });
 };

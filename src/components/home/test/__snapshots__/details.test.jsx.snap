@@ -10,26 +10,16 @@ exports[`details renders a snapshot 1`] = `
       </h3>
     </div>
     <div
-      className="column eight wide">
-      <p />
+      className="column sixteen wide">
       <ul>
         <li>
-          - You enter information about the financial status of your system, including current rates, revenue, and costs.
+          Enter information about the financial status of your system.
         </li>
         <li>
-          - You enter information about the capacity, condition, and age of your system\'s assets.
-        </li>
-      </ul>
-    </div>
-    <div
-      className="column eight wide">
-      <p />
-      <ul>
-        <li>
-          - You are provided with a dashboard showing the estimated remaining life and replacement costs for your system\'s infrastructure.
+          Enter information about the capacity, condition, and age of your system's assets.
         </li>
         <li>
-          - You raise rates, as necessary, to account for future needs of your water system.
+          You are provided with a dashboard showing the estimated remaining life and replacement costs for your system\'s infrastructure.
         </li>
       </ul>
     </div>

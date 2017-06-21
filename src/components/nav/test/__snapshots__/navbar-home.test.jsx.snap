@@ -25,5 +25,8 @@ exports[`navbar home renders a snapshot 1`] = `
       <RightNavHome />
     </div>
   </div>
+  <div>
+    <MobileButtons />
+  </div>
 </div>
 `;

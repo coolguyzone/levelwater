@@ -7,5 +7,5 @@ describe('right navbar forms', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<RightNavForms />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

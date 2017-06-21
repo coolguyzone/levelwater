@@ -7,5 +7,5 @@ describe('pumping and distribution form', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<PumpingDistForm />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});
