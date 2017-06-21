@@ -21,18 +21,9 @@ import FormFooter from './components/forms/form-footer/form-footer';
 import Manage from './components/manage/manage';
 import OauthRedirect from './components/home/oauth-redirect';
 
-
-
-
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
-
 class App extends Component {
-
-  // componentDidMount() {
-  //   console.log('here')
-  //   history.push('/dashboard')
-  // }
 
   render() {
     return (
@@ -59,8 +50,6 @@ class App extends Component {
         <Route exact path="/signup" component={Details} />
         <Route exact path="/signup" component={Signup} />
 
-
-
         <Route exact path="/signup/step1" component={FormNavbar}  />
         <Route exact path="/signup/step1" component={BasicInfoForm}  />
         <Route exact path="/signup/step1" component={FormFooter}  />
@@ -72,8 +61,6 @@ class App extends Component {
         <Route exact path="/signup/step3" component={FormNavbar} />
         <Route exact path="/signup/step3" component={SourceForm} />
         <Route exact path="/signup/step3" component={FormFooter}  />
-
-
 
         <Route exact path="/signup/step4" component={FormNavbar} />
         <Route exact path="/signup/step4" component={TreatmentForm} />
@@ -94,8 +81,6 @@ class App extends Component {
         <Route exact path="/manage" component={FormNavbar} />
         <Route exact path="/manage" component={Manage} />
         <Route exact path="/manage" component={FormFooter} />
-
-
 
         <Route exact path="/" component={Footer} />
       </div>
