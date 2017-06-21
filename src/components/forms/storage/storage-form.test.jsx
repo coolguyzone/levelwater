@@ -7,5 +7,5 @@ describe('storage form', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<StorageForm />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

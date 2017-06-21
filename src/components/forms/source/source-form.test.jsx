@@ -7,5 +7,5 @@ describe('source form', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<SourceForm />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

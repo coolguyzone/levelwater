@@ -114,12 +114,6 @@ export class SourceForm extends Component {
               </Field></div>
             </div>
 
-            {/* <div className="ui grid">
-              <div id="revenue-costs-submit-button" className="column sixteen wide">
-                <button className="ui button">+ Add Another Source</button>
-              </div>
-            </div> */}
-
             <div className="ui grid">
                 <SignUpBackButton to="/signup/step2"/>
               <div id="source-submit-button" className="column eight wide computer sixteen wide tablet">

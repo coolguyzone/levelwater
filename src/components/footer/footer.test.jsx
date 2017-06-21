@@ -7,5 +7,5 @@ describe('footer', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<Footer />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

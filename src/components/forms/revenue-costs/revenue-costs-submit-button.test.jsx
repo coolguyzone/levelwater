@@ -7,5 +7,5 @@ describe('revenue and costs submit button', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<RevenueCostsSubmitButton />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});

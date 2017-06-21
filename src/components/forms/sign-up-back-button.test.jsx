@@ -7,5 +7,5 @@ describe('sign up back button', () => {
   it('renders a snapshot', () => {
     const tree = shallow(<SignUpBackButton />);
     expect(toJson(tree)).toMatchSnapshot();
-  })
-})
+  });
+});
